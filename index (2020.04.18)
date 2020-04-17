@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+    <div id="header">  </div>
+    <div id="navbar">
+        <ul>
+            <li><a href="">Ravenclaw</a></li>
+            <li><a href="">Hufflepuff</a></li>
+            <li><a href="">Gryffindor</a></li>
+            <li><a href="">Slytherin</a></li>
+        </ul>
+    </div>
+
+    <div class="sideright">
+        <h2>Four Houses of Hogwarts</h2>
+        <p>"Where dwell the brave at heart, their daring, nerve and chivalry set Gryffindors apart."</p>
+        <p>"You might belong in Hufflepuff, where they are just and loyal, those patient Hufflepuffs are true, and unafraid of toil."</p>
+        <p>"Or yet in wise old Ravenclaw, if you've a ready mind, where those of wit and learning, will always find their kind."</p>
+        <p>"Or perhaps in Slytherin, you'll make your real friends, those cunning folk use any means, to achieve their ends."</p>
+    </div>
+
+    <div class="sideright">
+        <h2>Four Houses of Hogwarts</h2>
+        <p>"Where dwell the brave at heart, their daring, nerve and chivalry set Gryffindors apart."</p>
+        <p>"You might belong in Hufflepuff, where they are just and loyal, those patient Hufflepuffs are true, and unafraid of toil."</p>
+        <p>"Or yet in wise old Ravenclaw, if you've a ready mind, where those of wit and learning, will always find their kind."</p>
+        <p>"Or perhaps in Slytherin, you'll make your real friends, those cunning folk use any means, to achieve their ends."</p>
+    </div>
+
+    <div>
+        <img class="imagesidebar" src="flower01.jpg">
+    </div>
+    
+    <div class="main">
+    <h1>Hogwarts School of Witchcraft and Wizardry is the school for young wizards and witches</h1>
+    <p>
+        Hogwarts School of Witchcraft and Wizardry is a boarding school for young witches and wizards, located several hours north of London by train. It is over a thousand years old and was founded by Godric Gryffindor, Helga Hufflepuff, Rowena Ravenclaw and Salazar Slytherin, after whom the school's four houses are named. The Headmaster is Professor Dumbledore, and the Deputy Headmistress is Professor McGonagall.
+    </p> 
+    <h1> The Great Hall </h1>
+    <p> The Great Hall is the only part of the web site which allows you to check the top 20 highest scoring students in each house. you can also view which House is in the lead, how many students have joined each House, and how many students are attending Hogwarts overall. </p>
+    <p> The Great Hall is one of the largest rooms in Hogwarts castle, the main gathering place for meals and school events. Students sit at four long, wooden tables that run down its length, traditionally according to house, while the teachers and staff sit at the High Table. The ceiling is bewitched to look like the sky outside. </p> 
+    </div>
+    
+    <div class="main">
+    <h1>Hogwarts School of Witchcraft and Wizardry is the school for young wizards and witches</h1>
+    <p>
+        Hogwarts School of Witchcraft and Wizardry is a boarding school for young witches and wizards, located several hours north of London by train. It is over a thousand years old and was founded by Godric Gryffindor, Helga Hufflepuff, Rowena Ravenclaw and Salazar Slytherin, after whom the school's four houses are named. The Headmaster is Professor Dumbledore, and the Deputy Headmistress is Professor McGonagall.
+    </p> 
+    <h1> The Great Hall </h1>
+    <p> The Great Hall is the only part of the web site which allows you to check the top 20 highest scoring students in each house. you can also view which House is in the lead, how many students have joined each House, and how many students are attending Hogwarts overall. </p>
+    <p> The Great Hall is one of the largest rooms in Hogwarts castle, the main gathering place for meals and school events. Students sit at four long, wooden tables that run down its length, traditionally according to house, while the teachers and staff sit at the High Table. The ceiling is bewitched to look like the sky outside. </p> 
+    </div>
+
+    <div id="footer">  </div>
+    <div id="">  </div>
+
+</body>
+</html>
