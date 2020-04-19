@@ -1,0 +1,109 @@
+body{
+    margin: 0px;
+}
+
+#container{
+    width: 968px;                              /*fixed width, no further expandable*/
+    margin: 0px auto;                          /*there is no top and botton margins but "auto" makes div centered horizontally*/
+}
+                                               /*you need a calculator to get a precise width or height */
+/*nav is as wide as container: 964px+2*2px=968px*/
+/*sidebar 174px+2px and main 786px+2*2px = 968px*/
+
+/*========================= HEADER =========================*/
+
+.header{
+    background-color: #5c755e;
+    height: 75px;
+    width: 964px;
+    border: solid 2px #000;
+    color: white;
+}
+
+/*========================= NAVIGATION =========================*/
+
+#nav{
+    background-color: black;
+    height: 30px;
+    width: 964px;
+    border: solid 2px #000;                  /*964px+2*2px=968px*/
+    font-weight: bold;
+}
+
+/*========================= SIDEBAR =========================*/
+
+.sidebar{
+    float: left;
+    width: 176px;
+    height: 9500px;
+    background: #9c9f84;
+    border-left: solid 2px #000;             /*only the left border*/
+    border-bottom: solid 2px #000;
+    border-bottom-left-radius: 1em;
+}
+
+.sidebarnav{
+    float: left;
+    width: 125px;
+    height: 550px;
+    padding: 17px;
+    color: white;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    top: -2px;
+}
+
+.subnav{
+    list-style-type: none;
+    background: #5c755e;
+    border: solid 2px #404142;
+    padding-left: 4px;
+    padding-right: 0px;
+    width: 135px;
+    top: -18px;
+    position: relative;
+    border-top: solid 1px #404142;
+    line-height: 1.2;
+}
+
+/*========================= MAIN CONTENT =========================*/
+
+.main{
+    float: left;
+    width: 786px;                              /*if the total width is more than container's width, it can no longer fit in the container side by side */
+    height: 9500px;
+    background: #e5e4d7;
+    border-right: solid 2px #000;
+    border-left: solid 2px #000;
+    border-bottom: solid 2px #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    overflow: auto;
+    border-bottom-right-radius: 1em;
+}
+
+/*========================= BOX: mini content panel =========================*/
+#box{
+    background: #4e5a65;
+    border: 2px solid #000;
+    border-radius: 1em;
+    font-size: 95%;
+    padding: 10px;
+    margin: 20px;
+    width: 280px;
+    color: white;
+}
+
+.test{
+    display: block;
+    text-align: center;
+}
+
+img{
+    float: right;  /*图片居右*/
+    /*display: black;
+    margin-left: auto;
+    margin-right: auto;*/ /*图片居中*/
+    max-width: 100%;
+    max-height: 100%;
+}
